@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>14.1-karuzela</title>
+	<link rel="stylesheet" href="vendor/flickity.min.css" media="screen">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<div class="button-group">
+		<button class="button">reset</button>
+	</div>
+	<div class="flex-center">
+		<div class="main-carousel">
+			<!-- tu zaczyna sie  -->
+			<div class="carousel-cell" id="carousel-cell1"> 
+				<div class="container" style="background-image: url(https://www.fotopolis.pl/i/images/7/6/7/dz00NjA4Jmg9MzQ1Ng==_src_152767-P1010373.JPG);">
+					<p>przykładowy text</p>
+				</div>
+			</div>
+
+			<div class="carousel-cell" id="carousel-cell2"> 
+				<div class="container" style="background-image: url(https://www.fotopolis.pl/i/images/7/5/6/dz0zNDU2Jmg9NDYwOA==_src_152756-P1010071.JPG);">
+					<p>przykładowy text</p>
+				</div>
+			</div>
+			
+			<div class="carousel-cell" id="carousel-cell3"> 
+				<div class="container" style="background-image: url(https://www.fotopolis.pl/i/images/7/4/8/dz0xMDAwJmg9NzUw_src_152748-P1010187.JPG)">
+					<p>przykładowy text</p>
+				</div>
+			</div>
+
+			<div class="carousel-cell" id="carousel-cell4"> 
+				<div class="container" style="background-image: url(https://images.unsplash.com/photo-1548382340-e7280a94e3ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80)">
+					<p>przykładowy text</p>
+				</div>
+			</div>
+
+			<div class="carousel-cell" id="carousel-cell5"> 
+				<div class="container" style="background-image: url(https://images.unsplash.com/photo-1548422664-b0e182816520?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80)">
+					<p>przykładowy text</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="progress-bar"></div>
+
+	<div class="carouselLinks">
+		<ol>
+			View:&nbsp
+			<li><a href="#carousel-cell1">link 1</a></li>
+			<li><a href="#carousel-cell2">link 2</a></li>
+			<li><a href="#carousel-cell3">link 3</a></li>
+			<li><a href="#carousel-cell4">link 4</a></li>
+			<li><a href="#carousel-cell5">link 5</a></li>
+		</ol>
+	</div>
+	<script src="vendor/flickity-docs.min.js"></script>
+	<script src="https://unpkg.com/flickity-hash@1/hash.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

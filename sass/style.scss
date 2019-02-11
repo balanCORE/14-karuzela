@@ -1,0 +1,56 @@
+@import 'vendor/normalize';
+* { box-sizing: border-box; }
+
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+.main-carousel {
+	width: 100%;
+	min-height: 400px;
+	max-width: 1024px;
+	.carousel-cell {
+		width: 100%;
+		min-height:250px;
+		height: 100%;
+	}
+
+}
+.container {
+	height: 100%;
+	width: 100%;
+	max-width: 1200px;
+	background-position: center;
+	background-size: cover;
+}
+
+.flickity-page-dots {
+	display: none;
+}
+
+.carouselLinks {
+	ol {
+		display: flex;
+		list-style: none;
+		li {
+			margin-right: 5px;
+		}
+	}
+}
+.button-group {
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	z-index: 1000;
+}
+
+.progress-bar {
+  height: 20px;
+  width: 0;
+  background: #333;
+}
